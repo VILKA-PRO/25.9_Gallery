@@ -1,0 +1,116 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.table {
+  border: 1px solid rgb(83, 83, 83);
+}
+
+.myRow {
+    height: 95vh;    
+}
+
+.card{
+    background-color: rgba(0,0,0,.0);
+    
+}
+
+.card-header{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.card-body {
+    background-color: rgba(238, 238, 238, 0.9);
+    min-height: 19rem;
+}
+
+.card-body:last-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: calc(0.85rem - 1px);
+    border-bottom-left-radius: calc(0.85rem - 1px);
+}
+
+.card-title{
+    font-size: 24px;
+
+}
+
+.smallText{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.designed{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+/* 11 */
+.btn-11 {
+    border: none;
+    width: 240px;
+
+    background: rgb(251,33,117);
+      background: linear-gradient(315deg, #1fd1f9 -30%, #b621fe 104%);
+      color: #fff;
+      overflow: hidden;
+      font-size: 16px;
+  }
+  .btn-11:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 9s ease-in-out infinite;
+  }
+  .btn-11:hover{
+    opacity: .7;
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+  
+  
+  @keyframes shiny-btn1 {
+      0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+      20% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.2; }
+      81% { -webkit-transform: scale(4) rotate(45deg); opacity: 0.7; }
+      100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+  }
+
