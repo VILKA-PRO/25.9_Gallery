@@ -2,9 +2,9 @@
 
 Это было не просто, но я, надеюсь, справился
 
-![Everything is worked](Images/mygal.jpg)
+![Everything is worked](images/mygal.jpg)
 
 ---
 
-![Everything is worked](Images/mysql.jpg)
-ку
+![Everything is worked](images/mysql.jpg)
+
